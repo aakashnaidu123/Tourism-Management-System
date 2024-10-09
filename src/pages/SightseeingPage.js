@@ -5,4 +5,4 @@ function SightseeingPage() {
   return <h1>Sightseeing Page</h1>;
 }
 
-export default SightseeingPage;//
+export default SightseeingPage;

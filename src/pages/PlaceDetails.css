@@ -1,0 +1,28 @@
+/* src/pages/PlaceDetails.css */
+.place-details {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .place-details img {
+    width: 50%;
+    height: auto;
+    margin: 1rem 0;
+  }
+  
+  .place-details p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+  }
+  
+  .place-details a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
