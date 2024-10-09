@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.home-page {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2em;
+  margin: 20px 0;
+  text-align: center;
+  color: #333;
+}
+
+/* Deals Slider */
+.deal-card {
+  position: relative;
+  border-radius: 10px;
+  border: none; /* Remove default border */
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, border 0.3s ease; /* Transition for border */
+}
+
+.deal-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  border: 2px solid darkgreen; /* Dark green border on hover */
+}
+
+.deal-card img {
+  width: 100%;
+  height: 500px;
+  object-fit: fill;
+}
+
+.deal-card h3 {
+  margin: 10px 0 5px;
+  text-align: center;
+  color: #6daef4e0;
+}
+
+.deal-card p {
+  text-align: center;
+  color: #666;
+  padding: 0 15px;
+}
+
+/* Carousel Arrows */
+.carousel-arrow {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  color: white; /* Arrow color */
+  font-size: 24px; /* Arrow size */
+}
+
+.prev-arrow {
+  left: 20px; /* Adjust position */
+  top: 50%;
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.next-arrow {
+  right: 20px; /* Adjust position */
+  top: 50%;
+  transform: translateY(-50%); /* Center vertically */
+}
+
+/* Popular Places */
+.popular-places {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.place-card {
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none; /* Remove default border */
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, border 0.3s ease; /* Transition for border */
+}
+
+.place-card:hover {
+  transform: scale(1.05);
+  border: 5px solid #044602; /* Thick border on hover */
+  box-shadow: 0 0 30px 15px rgba(41, 215, 70, 0.8); /* Dark green border on hover */
+}
+
+.place-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.place-card h3 {
+  text-align: center;
+  margin: 10px 0;
+  color: #007BFF;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-close {
+  cursor: pointer;
+  color: #007BFF;
+}
+
+/* Footer */
+footer {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Keyframe Animations (optional) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

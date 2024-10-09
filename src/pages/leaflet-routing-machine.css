@@ -1,0 +1,32 @@
+.leaflet-routing-container {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .leaflet-routing-alt {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .leaflet-routing-alternatives-container {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .leaflet-routing-geocoders {
+    display: none;
+  }
+  
+  .leaflet-routing-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .leaflet-routing-line {
+    stroke: blue;
+    stroke-width: 4px;
+    opacity: 0.7;
+  }
+  
